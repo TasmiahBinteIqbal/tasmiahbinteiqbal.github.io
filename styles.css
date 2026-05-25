@@ -72,7 +72,7 @@ nav ul a:hover::after {
   align-items: center;
   justify-content: center;
   gap: 80px;
-  padding: 80px 8%;
+  padding: 40px 8%;
   background: linear-gradient(135deg, #fafafa 0%, #f0eeff 100%);
 }
 
