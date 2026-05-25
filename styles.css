@@ -206,11 +206,16 @@ section h2 {
 }
 
 .about-container > p {
-  color: #555555;
+  color: #444444;
   font-size: 1rem;
   line-height: 1.9;
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 18px;
+  border-left: 4px solid #6c63ff;
+  box-shadow: 0 4px 20px rgba(108,99,255,0.08);
 }
 
 .about-info {
