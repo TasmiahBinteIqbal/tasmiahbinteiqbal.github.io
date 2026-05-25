@@ -517,3 +517,74 @@ footer {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+@media (max-width: 768px) {
+  nav {
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 15px 5%;
+  }
+
+  nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul a {
+    font-size: 0.85rem;
+  }
+
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 100px 5% 60px;
+  }
+
+  .profile-pic {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-right h1 {
+    font-size: 2rem;
+  }
+
+  .hero-socials {
+    justify-content: center;
+  }
+
+  .hero-btns {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .extra-container {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 60px 5%;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+}
